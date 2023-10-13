@@ -1,0 +1,996 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-burger{
+    color: black;
+    display: flex;
+    width: 100%;
+    background-color: #541554;
+}
+
+.menu-desktop{
+    background-color: #541554;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px ;
+}
+
+
+.material-symbols-outlined{
+    color: white;
+    
+}
+
+
+.nav-header{
+    display: flex;
+}
+
+
+.nav{
+    display: none;
+}
+
+.button{
+    display: none;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.logo{
+    width: 90%;
+    background-color: #541554;
+    display: flex;
+    font-size: .875rem;
+}
+
+.foto-movil img{
+    display: flex;
+    width: 500px;
+    padding: 50px;
+    
+    
+}
+
+.central{
+    display: flex;
+    display: block;
+    background-color: #541554;
+    width: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.central {
+    display: flex;
+}
+
+.allinfo-central{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.think{
+    font-size: 50px;
+    color: white;
+    width: 90%;
+}
+
+.create{
+    font-size: 45px;
+    color: orange;
+    width: 90%;
+}
+
+.person{
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.free{
+    color: white;
+    padding: 20px 0px 20px 0px;
+    width: 90%;
+}
+
+.btn-register{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    padding-top: 10px;
+}
+.btn-1 button{
+    
+    background-color: white;
+    border: 1px solid white;
+    color: #541554;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.btn-2 button{
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.empresas-confian{
+    background-color: #F4EDE4;
+}
+
+.title-empresas{
+    padding-top: 50px;
+    text-align: center;
+}
+.dif-logos{
+    padding: 90px;
+    padding-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.logo-airbnb{
+    width: 110px;
+    padding: 20px;
+}
+
+.logo-nasa{
+    width: 60px;
+    padding: 20px;
+}
+
+.logo-etsy{
+    width: 100px;
+    padding: 20px;
+}
+
+.logo-uber{
+    width: 100px;
+    padding: 20px;
+
+}
+
+.logo-new{
+    width: 200px;
+    padding: 20px;
+}
+
+
+.first, .second, .third{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.second{
+    flex-direction: row-reverse;
+     
+}
+
+.first-text, .second-text, .third-text{
+    width: 60%;
+}
+
+.first-text p{
+    padding: 5px;
+    height: auto;
+    padding-left: 20px;
+
+}
+
+.second-text p{
+    padding: 5px;
+    height: auto;
+
+}
+
+.third-text p{
+    padding: 5px;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.title-text{
+   font-size: 20px;
+}
+
+.title-slack{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-adapta{
+    text-align: center;
+    width: 80%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.button-teams{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.conoce{
+    background-color: #541554;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+
+.sell{
+    background-color: white;
+    border: 1px solid #541554;
+    color: #541554;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.porcentajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.number{
+    text-align: center;
+    font-size: 70px;
+    color: #541554;
+    padding-bottom: 40px;
+}
+
+.text-porcen{
+    width: 80%;
+    text-align: center;
+    
+}
+
+.video-vodafone{
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe{
+    width: 350px;
+    height: 215px;
+    border-radius: 350px;
+    padding-left: 60%;
+    display: flex;
+    
+}
+
+
+.opiniones, .matt, .enlace{
+    width: 70%;
+    padding: 20px;
+}
+
+.atencion{
+    text-align: center;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.explora{
+    background-color: #F4EDE4;
+    padding: 50px;
+}
+
+.explora-card1, .explora-card2, .explora-card3, .explora-card4{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.explora-card1 img, .explora-card2 img, .explora-card3 img, .explora-card4 img{
+    width: 200px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.explora-card1 p, .explora-card2 p, .explora-card3 p, .explora-card4 p{
+    padding-left: 20px;
+    font-size: 15px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.all-explora{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.title-profundidad{
+    text-align: center;
+}
+
+.descubre{
+    background-color: #541554;
+    padding-bottom: 50px;
+}
+
+.title-descubre{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.button-descubre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.speak{
+    background-color: #541554;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.try{
+    background-color: white;
+    border: 1px solid #541554;
+    color: #541554;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.logo-slack img{
+    width: 250px;
+}
+
+
+.all-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+
+.all-footer ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.all-footer li{
+    padding: 5px;
+}
+
+.slack, .producto, .precio, .recursos, .empresa{
+    padding: 15px;
+}
+
+.linea{
+    color: #F4EDE4;
+    text-align: center;
+}
+
+
+.options-footer{
+    padding-left: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.option-1, .option-2, .option-3, .option-4, .option-5, .option-6, .option-7, .option-8{
+    padding: 10px;
+}
+
+.copyright{
+    padding-left: 20px;
+    width: 80%;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.youtube img, .twitter img, .linkedin img, .facebook img{
+    width: 20px;
+}
+
+.redes-sociales{
+    display: flex;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+/* Resto de reglas en orden creciente */
+@media (min-width: 576px) {
+    
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .menu-burger {
+        display: none;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .button{
+        display: block;
+    }
+    .first-part{
+
+        background-color: #541554;
+        display: flex;
+        font-size: .875rem;
+    }
+    .nav-header{
+        display: flex;
+    }
+    nav{
+        width: 50%;
+       
+    }
+    
+    .logo{
+        width: 20%;
+        background-color: #541554;
+        display: flex;
+        font-size: .875rem;
+    }
+    
+    
+   
+    
+    .logo img{
+        width: 290px;
+    }
+    
+    
+    .nav, a, ul, li{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .button{
+        
+
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 5px;
+        padding: 40px;
+        margin: 20px;
+    
+        
+        
+    }
+
+    .conect {
+      border: none;
+      background-color: #541554;
+      color: white;
+      padding: 10px;
+      
+    }
+    
+    .conect:hover{
+        text-decoration: underline;
+    }
+
+    .hablar{
+        background-color: #541554;
+        border: 1px solid white;
+        color: white;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+
+    }
+
+    .probar{
+        background-color: white;
+        border: 1px solid white;
+        color: #541554;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+
+    }
+    
+
+    .foto-movil img{
+        display: block;
+        padding-right: 200px;
+    }
+
+    .central{
+        display: flex;
+        display: block;
+        background-color: #541554;
+        width: 100%;
+        padding: 0px;
+        flex-wrap: nowrap;
+    }
+    
+    .central {
+        display: flex;
+    }
+    
+    .allinfo-central{
+        width: 100%;
+        padding-left: 50px;
+    }
+    
+    .btn-register{
+        display: flex;
+        flex-direction:column;
+        width: 50%;
+        padding-top: 10px;
+    }
+    .btn-1 button{
+        
+        background-color: white;
+        border: 1px solid white;
+        color: #541554;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 500px;
+    }
+    
+    .btn-2 button{
+        background-color: blue;
+        border: 1px solid white;
+        color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 500px;
+    }
+    .think{
+        font-size: 50px;
+        color: white;
+        width: 80%;
+    }
+    
+    .create{
+        font-size: 50px;
+        color: orange;
+        width: 90%;
+    }
+    
+    .person{
+        color: white;
+        width: 70%;
+        padding: 20px 0px 20px 0px;
+        text-align: left;
+    }
+    
+    .free{
+        color: white;
+        padding: 20px 0px 20px 0px;
+        width: 80%;
+    }
+    .empresas-confian{
+        background-color: #F4EDE4;
+    }
+    
+    .title-empresas{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .dif-logos{
+        padding: 90px;
+        padding-left: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-airbnb{
+        width: 150px;
+        padding: 20px;
+    }
+    
+    .logo-nasa{
+        width: 100px;
+        padding: 20px;
+    }
+    
+    .logo-etsy{
+        width: 150px;
+        padding: 20px;
+    }
+    
+    .logo-uber{
+        width: 130px;
+        padding: 20px;
+    
+    }
+    
+    .logo-new{
+        width: 200px;
+        padding: 20px;
+    }
+    .first, .second, .third{
+        display: flex;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        width: 90%;
+        
+    }
+    
+    .second{
+        flex-direction: row-reverse;
+         
+    }
+    
+    .first-text, .second-text, .third-text{
+        width: 50%;
+    }
+
+    .first-video video {
+        width: 620px;
+        height: 550px;
+        padding-left: 20%;
+
+    }
+    
+
+    .second-video video{
+
+        width: 620px;
+        height: 550px;
+        padding-right: 20%;
+
+    }
+
+    .third-video video{
+
+        width: 620px;
+        height: 550px;
+        padding-left: 20%;
+
+    }
+
+
+    .enlac{
+        color: blue;
+        text-decoration-line: underline;
+    }
+
+    .first-text p{
+        padding: 25px;
+        height: auto;
+        padding-left: 200px;
+        padding-top: 30px;
+    
+    }
+    
+    .second-text p{
+        padding: 25px;
+        height: auto;
+        padding-right: 200px;
+        width: 90%;
+        padding-top: 30px;
+    
+    }
+    
+    .third-text p{
+        padding: 25px;
+        height: auto;
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+    
+    .title-text{
+       font-size: 20px;
+    }
+    
+    .title-slack{
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        width: 100%;
+        font-size:50px;
+    }
+    
+    .text-adapta{
+        text-align: center;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    
+    }
+    .button-teams{
+        display: flex;
+        margin: 20px;
+    
+    }
+    
+    .conoce{
+        background-color: #541554;
+        border: 1px solid white;
+        color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 500px;
+    }
+    
+    
+    .sell{
+        background-color: white;
+        border: 1px solid #541554;
+        color: #541554;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 500px;
+    }
+    
+    .porcentajes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .number{
+        text-align: center;
+        font-size: 70px;
+        color: #541554;
+        padding-bottom: 40px;
+    }
+    
+    .text-porcen{
+        width: 80%;
+        text-align: center;
+        
+    }
+    
+    .video-vodafone{
+        
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .video-vodafone video{
+
+        width: 550px;
+        height: 315px;
+        border-radius: 350px;
+        padding-left: 30%;
+
+
+    }
+    
+    .opiniones, .matt, .enlace, .direct{
+        
+        display: flex;
+        width: 50%;
+        padding-left: 30%;
+
+    }
+
+    .all.opiniones{
+        width: 60%;
+    }
+
+    .atencion{
+        text-align: center;
+        color: grey;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .explora{
+        background-color: #F4EDE4;
+        padding: 50px;
+    }
+    
+    .explora-card1, .explora-card2, .explora-card3, .explora-card4{
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+    }
+    
+    .explora-card1 img, .explora-card2 img, .explora-card3 img, .explora-card4 img{
+        width: 200px;
+        padding: 20px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .explora-card1 p, .explora-card2 p, .explora-card3 p, .explora-card4 p{
+        padding-left: 20px;
+        font-size: 15px;
+        padding-right: 20px;
+        margin-top: 5px;
+    }
+    
+    .all-explora{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        
+    }
+    
+    .title-profundidad{
+        text-align: center;
+    }
+    
+    .descubre{
+        background-color: #541554;
+        padding-bottom: 50px;
+    }
+    
+    .title-descubre{
+        text-align: center;
+        padding: 20px;
+        color: white;
+        
+    }
+    
+    .button-descubre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+    
+    .speak{
+        background-color: #541554;
+        border: 1px solid white;
+        color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 20%;
+    }
+    
+    .try{
+        background-color: white;
+        border: 1px solid #541554;
+        color: #541554;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 20%;
+    }
+    
+    .logo-slack img{
+        width: 250px;
+    }
+    
+    
+    .all-footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        
+    
+    }
+    
+    .all-footer ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        display: block;
+        
+        
+        
+        
+    }
+    
+    .all-footer li{
+        padding: 5px;
+        color: grey;
+        display: flex;
+       
+        
+        
+    }
+    
+    .slack, .producto, .precio, .recursos, .empresa{
+        padding: 30px;
+    }
+
+    
+    .linea{
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .options-footer{
+        padding-left: 20px;
+        margin: 10px;
+    }
+    
+    .option-1, .option-2, .option-3, .option-4, .option-5, .option-6, .option-7, .option-8{
+        padding: 10px;
+    }
+    
+    .copyright{
+        padding-left: 20px;
+        width: 80%;
+        color: grey;
+        text-align: center;
+    }
+    .youtube img, .twitter img, .linkedin img, .facebook img{
+        width: 20px;
+    }
+
+    .redes-sociales{
+        display: flex;
+        padding-left: 20px;
+    }
+
+    
+
+
+}
+
+@media (min-width: 1200px)
